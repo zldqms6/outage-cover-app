@@ -1,0 +1,478 @@
+{
+  "network": "studionet",
+  "feed": "https://status.kraken.com/api/v2/incidents.json",
+  "start": 1794791656,
+  "end": 1794791956,
+  "rows": [
+    {
+      "label": "memecore-v2",
+      "contract": "0xa2C99AD4c408f620042A8CA42B30C11E8be33598",
+      "scope": "MemeCore (M) deposits on Kraken",
+      "id": 0,
+      "open_tx": "0xf79fcd951858ccd04ccf0ff7ada9e8205f3bee7247b7b7f2eced3518521975da",
+      "buy_tx": "0xc43607148922c0bc65f4d1265e6ccc52ccd9a062c24995f61e2d8a91687f398a",
+      "preview": {
+        "candidates": [
+          {
+            "id": "373bvd3r2h9c",
+            "name": "Memecore (M) Deposits Disabled",
+            "impact": "minor",
+            "components": [
+              "MemeCore (M) - BNB Chain"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": false,
+            "link": "https://stspg.io/tjr4tvl88wtp"
+          },
+          {
+            "id": "6yrrplqc5yv0",
+            "name": "Initia (INIT) Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Initia (INIT)"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/6m8947xr22xm"
+          },
+          {
+            "id": "dk2sjsgq5tx3",
+            "name": "Flare Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Flare (FLR)",
+              "Tether USD (USDT) - Flare"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/lws4xdj6r6np"
+          },
+          {
+            "id": "x4z8gsp2y577",
+            "name": "Stablr USD (USDR) and Stablr Euro (EURR) Funding Methods Halted",
+            "impact": "minor",
+            "components": [
+              "Stablr Euro (EURR) - Ethereum",
+              "Stablr USD (USDR) - Ethereum"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": false,
+            "link": "https://stspg.io/vxhf1h9y715y"
+          },
+          {
+            "id": "yshfxnffsgl2",
+            "name": "Osmosis (OSMO) Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Osmosis (OSMO)"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/m0v330r5jhjb"
+          }
+        ],
+        "pageCoversWindow": true,
+        "pageOldest": 1791292142,
+        "openOffPage": 2
+      },
+      "resolve_attempts": [
+        {
+          "hash": "0xe9efe51d795a0ce6d9d23c35d32df019e5a2364280ead3636143cceb5cc18f44",
+          "ok": true
+        }
+      ],
+      "resolve_tx": "0xe9efe51d795a0ce6d9d23c35d32df019e5a2364280ead3636143cceb5cc18f44",
+      "claim_tx": "0x179b32ec319801593dfed82fa613323ac67389848c0e6e3c189ac1f702819b8a",
+      "withdraw_tx": "0xe6f9cf3251faa519f978ea55480223944c47673a428cd927caf89febfe112727",
+      "pool": {
+        "id": 0,
+        "underwriter": "0xD1A47bC8726f84739263913884705b05967Bd6A3",
+        "venue": "Kraken",
+        "feed_url": "https://status.kraken.com/api/v2/incidents.json",
+        "scope": "MemeCore (M) deposits on Kraken",
+        "cover_start": 1794791656,
+        "cover_end": 1794791956,
+        "trigger_minutes": 3,
+        "multiple": 5,
+        "capital": "10000000000000000000",
+        "liability": "5000000000000000000",
+        "capacity_left": "5000000000000000000",
+        "premiums": "1000000000000000000",
+        "status": "triggered",
+        "impaired_minutes": 5,
+        "evidence": [
+          {
+            "id": "373bvd3r2h9c",
+            "name": "Memecore (M) Deposits Disabled",
+            "reason": "MemeCore (M) deposits on Kraken were explicitly disabled."
+          }
+        ],
+        "resolvable_at": 1794792556
+      }
+    },
+    {
+      "label": "osmo-v2",
+      "contract": "0xa2C99AD4c408f620042A8CA42B30C11E8be33598",
+      "scope": "Osmosis (OSMO) deposits and withdrawals on Kraken",
+      "id": 1,
+      "open_tx": "0x4a90f607a3d9ce985f3d6f70ec7d082640ecb46c8b3953f0654e00784db39465",
+      "buy_tx": "0x6ee5f8e8dd9cce00889d792a5e05c14d362e7cb47bdf8755f67bf64e94c987d1",
+      "preview": {
+        "candidates": [
+          {
+            "id": "373bvd3r2h9c",
+            "name": "Memecore (M) Deposits Disabled",
+            "impact": "minor",
+            "components": [
+              "MemeCore (M) - BNB Chain"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": false,
+            "link": "https://stspg.io/tjr4tvl88wtp"
+          },
+          {
+            "id": "6yrrplqc5yv0",
+            "name": "Initia (INIT) Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Initia (INIT)"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/6m8947xr22xm"
+          },
+          {
+            "id": "dk2sjsgq5tx3",
+            "name": "Flare Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Flare (FLR)",
+              "Tether USD (USDT) - Flare"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/lws4xdj6r6np"
+          },
+          {
+            "id": "x4z8gsp2y577",
+            "name": "Stablr USD (USDR) and Stablr Euro (EURR) Funding Methods Halted",
+            "impact": "minor",
+            "components": [
+              "Stablr Euro (EURR) - Ethereum",
+              "Stablr USD (USDR) - Ethereum"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": false,
+            "link": "https://stspg.io/vxhf1h9y715y"
+          },
+          {
+            "id": "yshfxnffsgl2",
+            "name": "Osmosis (OSMO) Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Osmosis (OSMO)"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/m0v330r5jhjb"
+          }
+        ],
+        "pageCoversWindow": true,
+        "pageOldest": 1791292142,
+        "openOffPage": 2
+      },
+      "resolve_attempts": [
+        {
+          "hash": "0xc47d20db9c082bde03c9b7b073fcbe4bab47f2d3048063ae11c21e47e5f0fa32",
+          "ok": true
+        }
+      ],
+      "resolve_tx": "0xc47d20db9c082bde03c9b7b073fcbe4bab47f2d3048063ae11c21e47e5f0fa32",
+      "claim_tx": "0x23bce8ab384f892b5726188c069cc67f09bcdfb63af9b2f570fc0fe12dada79f",
+      "withdraw_tx": "0x6ac8e44b3422a36ea1966272842650f10c489bf9ed2a9d304e487657ffcd6710",
+      "pool": {
+        "id": 1,
+        "underwriter": "0xD1A47bC8726f84739263913884705b05967Bd6A3",
+        "venue": "Kraken",
+        "feed_url": "https://status.kraken.com/api/v2/incidents.json",
+        "scope": "Osmosis (OSMO) deposits and withdrawals on Kraken",
+        "cover_start": 1794791656,
+        "cover_end": 1794791956,
+        "trigger_minutes": 3,
+        "multiple": 5,
+        "capital": "10000000000000000000",
+        "liability": "5000000000000000000",
+        "capacity_left": "5000000000000000000",
+        "premiums": "1000000000000000000",
+        "status": "triggered",
+        "impaired_minutes": 5,
+        "evidence": [
+          {
+            "id": "yshfxnffsgl2",
+            "name": "Osmosis (OSMO) Funding Delays",
+            "reason": "Osmosis (OSMO) deposits and withdrawals were delayed due to a funding gateway issue."
+          }
+        ],
+        "resolvable_at": 1794792556
+      }
+    },
+    {
+      "label": "btc-v2",
+      "contract": "0xa2C99AD4c408f620042A8CA42B30C11E8be33598",
+      "scope": "BTC spot order placement or matching on Kraken",
+      "id": 2,
+      "open_tx": "0x2f4be996fb7f785df40621b24580222ea4c01b77570a5d59757390a755477306",
+      "buy_tx": "0x18737f7ef3dba66b29d34518368c6ead860c1e65aec00510cd3dcbbdd34a01af",
+      "preview": {
+        "candidates": [
+          {
+            "id": "373bvd3r2h9c",
+            "name": "Memecore (M) Deposits Disabled",
+            "impact": "minor",
+            "components": [
+              "MemeCore (M) - BNB Chain"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": false,
+            "link": "https://stspg.io/tjr4tvl88wtp"
+          },
+          {
+            "id": "6yrrplqc5yv0",
+            "name": "Initia (INIT) Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Initia (INIT)"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/6m8947xr22xm"
+          },
+          {
+            "id": "dk2sjsgq5tx3",
+            "name": "Flare Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Flare (FLR)",
+              "Tether USD (USDT) - Flare"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/lws4xdj6r6np"
+          },
+          {
+            "id": "x4z8gsp2y577",
+            "name": "Stablr USD (USDR) and Stablr Euro (EURR) Funding Methods Halted",
+            "impact": "minor",
+            "components": [
+              "Stablr Euro (EURR) - Ethereum",
+              "Stablr USD (USDR) - Ethereum"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": false,
+            "link": "https://stspg.io/vxhf1h9y715y"
+          },
+          {
+            "id": "yshfxnffsgl2",
+            "name": "Osmosis (OSMO) Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Osmosis (OSMO)"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/m0v330r5jhjb"
+          }
+        ],
+        "pageCoversWindow": true,
+        "pageOldest": 1791292142,
+        "openOffPage": 2
+      },
+      "resolve_attempts": [
+        {
+          "hash": "0xf976f1d02fe1e15cb526b53efea80a4924f86fcf0e6dd9714aee30675839a690",
+          "ok": true
+        }
+      ],
+      "resolve_tx": "0xf976f1d02fe1e15cb526b53efea80a4924f86fcf0e6dd9714aee30675839a690",
+      "withdraw_tx": "0xe8ac6905cbe62ce71d73f3a8b17bcffef5e3d1ce5b9a6f57514c6b517dd4fd9e",
+      "pool": {
+        "id": 2,
+        "underwriter": "0xD1A47bC8726f84739263913884705b05967Bd6A3",
+        "venue": "Kraken",
+        "feed_url": "https://status.kraken.com/api/v2/incidents.json",
+        "scope": "BTC spot order placement or matching on Kraken",
+        "cover_start": 1794791656,
+        "cover_end": 1794791956,
+        "trigger_minutes": 3,
+        "multiple": 5,
+        "capital": "10000000000000000000",
+        "liability": "5000000000000000000",
+        "capacity_left": "5000000000000000000",
+        "premiums": "1000000000000000000",
+        "status": "not_triggered",
+        "impaired_minutes": 0,
+        "evidence": [],
+        "resolvable_at": 1794792556
+      }
+    },
+    {
+      "label": "memecore-v1",
+      "contract": "0x5aA5a3BC78f1753Be70c43308600bcE5474E53F3",
+      "scope": "MemeCore (M) deposits on Kraken",
+      "id": 2,
+      "open_tx": "0xdbe1537396f6fa571c4a32c1a72a32586b201e23894b44d40e80c14da122956b",
+      "buy_tx": "0x3c351d471d9d849ee86213beb3001a148d9d332471463c70d111405ddbb68eff",
+      "preview": {
+        "candidates": [
+          {
+            "id": "373bvd3r2h9c",
+            "name": "Memecore (M) Deposits Disabled",
+            "impact": "minor",
+            "components": [
+              "MemeCore (M) - BNB Chain"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": false,
+            "link": "https://stspg.io/tjr4tvl88wtp"
+          },
+          {
+            "id": "6yrrplqc5yv0",
+            "name": "Initia (INIT) Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Initia (INIT)"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/6m8947xr22xm"
+          },
+          {
+            "id": "dk2sjsgq5tx3",
+            "name": "Flare Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Flare (FLR)",
+              "Tether USD (USDT) - Flare"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/lws4xdj6r6np"
+          },
+          {
+            "id": "x4z8gsp2y577",
+            "name": "Stablr USD (USDR) and Stablr Euro (EURR) Funding Methods Halted",
+            "impact": "minor",
+            "components": [
+              "Stablr Euro (EURR) - Ethereum",
+              "Stablr USD (USDR) - Ethereum"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": false,
+            "link": "https://stspg.io/vxhf1h9y715y"
+          },
+          {
+            "id": "yshfxnffsgl2",
+            "name": "Osmosis (OSMO) Funding Delays",
+            "impact": "minor",
+            "components": [
+              "Osmosis (OSMO)"
+            ],
+            "start": 1794791656,
+            "end": 1794791956,
+            "minutes": 5,
+            "open": true,
+            "onPage": true,
+            "link": "https://stspg.io/m0v330r5jhjb"
+          }
+        ],
+        "pageCoversWindow": true,
+        "pageOldest": 1791292142,
+        "openOffPage": 2
+      },
+      "resolve_attempts": [
+        {
+          "hash": "0x8ebc85680064409ef04ffc2c978640ff5a8340f0904713fe2bc3c3b9397301a5",
+          "ok": true
+        }
+      ],
+      "resolve_tx": "0x8ebc85680064409ef04ffc2c978640ff5a8340f0904713fe2bc3c3b9397301a5",
+      "withdraw_tx": "0x72d6617de2fedb82ab0417b75ba4ff655f1f147bf008506229233c1c26dee504",
+      "pool": {
+        "id": 2,
+        "underwriter": "0xD1A47bC8726f84739263913884705b05967Bd6A3",
+        "venue": "Kraken",
+        "feed_url": "https://status.kraken.com/api/v2/incidents.json",
+        "scope": "MemeCore (M) deposits on Kraken",
+        "cover_start": 1794791656,
+        "cover_end": 1794791956,
+        "trigger_minutes": 3,
+        "multiple": 5,
+        "capital": "10000000000000000000",
+        "liability": "5000000000000000000",
+        "capacity_left": "5000000000000000000",
+        "premiums": "1000000000000000000",
+        "status": "not_triggered",
+        "impaired_minutes": 0,
+        "evidence": [],
+        "resolvable_at": 1794791956
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "network": "studionet",
+  "deployments": [
+    {
+      "name": "OutageCover v2 (app)",
+      "address": "0xa2C99AD4c408f620042A8CA42B30C11E8be33598",
+      "source": "contracts/outage_cover.py"
+    }
+  ]
+}
